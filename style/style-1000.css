@@ -1,0 +1,44 @@
+@media only screen and (max-width:1024px){
+    .modal-content{
+      margin-top: 10% ;
+      width: 170% ;
+      margin-left: -40% ;
+     
+    }
+    .photoshop-icon{ font-size: 16px;
+      border: 2px solid black;
+      font-weight: bold;
+      width: fit-content;
+      padding: 3px 5px ;}
+      
+      .portfolio-section-heading{
+        font-size: 55px;
+        opacity: 0;
+        
+      
+      }
+      .portfolio-section-title{
+        font-size: 50px;
+        position: absolute;
+        
+       
+      }
+  }
+
+
+  /*****************************1300****************************/
+  @media only screen and (min-width:1400px){
+    .modal-content{
+      width: 200% ;
+      margin-left: -45% ;
+      padding: 10%;
+    }
+  }
+  /****************************1200**********************************/
+  @media only screen and (max-width:1200px){
+    .about-section-heading{font-size: 130px;}
+    .about-section-name{
+      font-size: 40px;
+      text-align: center;
+     }
+  }

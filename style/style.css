@@ -1,0 +1,314 @@
+body {
+  margin: 0px;
+  font-family: "montserrat";
+  position: relative;
+}
+
+a {
+  text-decoration: none !important;
+}
+.center {
+  text-align: center !important;
+}
+.a-right {
+  text-align: right;
+}
+.a-left {
+  text-align: left;
+}
+.float-right {
+  float: right !important;
+}
+.position-fixed {
+  position: fixed !important;
+}
+.color-light {
+  color: white !important;
+}
+.color-dark {
+  color: #020202 !important;
+}
+.color-gray {
+  color: gray !important;
+}
+.color-pale-salmon {
+  color: #f5bd93;
+}
+.t-size-15 {
+  font-size: 15px !important;
+}
+.t-size-16 {
+  font-size: 16px !important;
+}
+.t-size-18 {
+  font-size: 18px !important;
+}
+.t-size-20 {
+  font-size: 20px !important;
+}
+.t-size-24 {
+  font-size: 24px !important;
+}
+.t-size-40 {
+  font-size: 40pt !important;
+}
+.f-weight-bold {
+  font-weight: bold !important;
+}
+.f-weight-600 {
+  font-weight: 600 !important;
+}
+.f-style-i {
+  font-style: italic;
+}
+.outline-no {
+  outline: none !important;
+}
+.m-auto {
+  margin: auto !important;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.mr-auto {
+  margin-right: auto !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-inline {
+  display: inline !important;
+}
+.d-i-block {
+  display: inline-block !important;
+}
+.width-25 {
+  width: 25% !important;
+}
+.width-50 {
+  width: 50% !important;
+}
+.width-100 {
+  width: 100% !important;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.ptb-80 {
+  padding: 80px 0px;
+}
+.ptb-100 {
+  padding: 100px 0px;
+}
+.w-15px {
+  width: 15px;
+}
+
+/*********************************************Header*********************************************/
+.nav-link.active {
+  color: gray;
+  border-bottom: 2px solid #00000025;
+  border-radius: 1px;
+}
+
+#top-nav {
+  background-color: white;
+  box-shadow: 0px -3px 20px -10px;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.nav-mobile-custom {
+  margin-left: auto;
+}
+.nav-hover {
+  transition: 0.5s;
+  border-top: 2px solid #ffffff00;
+}
+.nav-hover:hover {
+  color: gray;
+  border-top: 2px solid #00000025;
+  border-radius: 1px;
+}
+.nav-logo {
+  height: auto;
+  width: 55px;
+  margin-top: 15px;
+  position: absolute;
+}
+.mobile-menu {
+  margin-left: auto;
+}
+.navbar-toggler-icon {
+  background: url(../img/menubar.png);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+/********************************************Hero section****************************************/
+#hero-section {
+  background: url(../img/IMG_0893-2-2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0%;
+  width: 100% !important;
+  padding-bottom: 18%;
+  background-color: #f1f1f1;
+}
+/**@media only screen and (max-width: 1366px) {
+  #hero-section {
+   background-size: cover;
+   background-position:-320% 0%;
+   height: 800px;
+   width: 100% !important;
+  }
+  .hero-height{
+    height: 00px;
+  }
+  
+}*/
+
+.hero-img {
+  position: absolute;
+  width: 49%;
+  height: auto;
+}
+.hero-title {
+  font-family: "montserrat";
+  margin-top: 20%;
+  -webkit-text-stroke: 2px gray;
+  color: transparent;
+  font-size: 100px;
+  font-weight: 900;
+  opacity: 1 !important;
+}
+
+.hero-title-2 {
+  font-family: "montserrat";
+  color: gray;
+  font-weight: 900;
+  font-size: 100px;
+  opacity: 1 !important;
+}
+@media only screen and (max-width: 600px) {
+  .hero-title,
+  .hero-title-2 {
+    font-size: 60px;
+  }
+  .hero-title {
+    font-size: 40px;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+  }
+  .hero-title-2 {
+    color: black;
+    font-size: 40px;
+  }
+}
+
+.hero-p {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+}
+.typed-color {
+  color: rgb(179, 179, 179);
+}
+
+/***********************************About me section***************************************/
+.about-me-section-img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.about-section-heading {
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.1;
+}
+.about-section-name {
+  position: absolute;
+  margin-top: -105px;
+  font-weight: 900;
+  font-size: 40px;
+}
+.about-p {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-style: italic;
+  color: #767676;
+  margin-top: -20px;
+}
+
+.learn-more-btm {
+  color: white;
+  background-color: black;
+  padding: 15px 40px;
+  border: 1px solid black;
+  transition: 0.5s;
+  font-family: "mulish";
+  outline: none;
+}
+.learn-more-btm:hover {
+  color: black;
+  background-color: white;
+}
+/*********************************modal btn*****************************/
+.modal-close-btn:hover {
+  color: black;
+  background-color: white;
+}
+.modal-content {
+  width: 170%;
+  margin-left: -35%;
+  padding: 50px;
+}
+.happy-clients-section {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*******==================================Portfolio Section========================================================================***/
+#portfolio-section {
+  background-color: #f8f9fa;
+}
+.portfolio-section-heading {
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+  font-size: 150px;
+  font-weight: 900;
+  opacity: 0.1;
+}
+.portfolio-section-title{
+  position: absolute;
+  margin-top: -100px;
+  font-weight: 900;
+  font-size: 40px;
+  color: #000;
+}
+.portfolio-section-tabs{
+  
+}
+.hover-zoom img, .hover-zoom video {
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+.hover-zoom:hover img, .hover-zoom:hover video {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
